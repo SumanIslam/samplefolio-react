@@ -39,12 +39,17 @@ export const ButtonContainer = styled.div`
   &:hover::before {
     transform: translateX(0);
   }
+  &:hover a {
+    z-index: 1;
+    color: ${props => props ? whiteColor : primaryColor};
+  }
 
   & a {
     font-size: 1.5rem;
     text-decoration: none;
     z-index: 1;
     color: ${props => props ? primaryColor : whiteColor};
+
     &:hover {
       color: ${props => props ? whiteColor : primaryColor};
     }
