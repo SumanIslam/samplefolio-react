@@ -15,7 +15,7 @@ import {
 } from "./about.style";
 
 const About = ({ aboutInfo }) => (
-  <AboutContainer>
+  <AboutContainer id="about">
     <div class="container">
       <SectionTitle title="About Me"/>
       <AboutContentWrapper className="row">
@@ -31,7 +31,7 @@ const About = ({ aboutInfo }) => (
                 <AboutInfo content={info} />
               ))
             }
-            <Button text="View Resume" />
+            <Button text="Resume" link="https://drive.google.com/file/d/1kV1WVnMWCvmQrfRZRjFKOdXbZCvwfjRn/view?usp=sharing"/>
           </AboutContentWrapperInfo>
         </div>
       </AboutContentWrapper>

@@ -1,10 +1,17 @@
 // component
 import { ButtonStyle, ButtonContainer } from "./button.style";
 
-const Button = ({ primary, text }) => (
+const Button = ({ primary, text, link }) => (
   <ButtonStyle>
     <ButtonContainer primary={primary}>
-      <a href="https://www.fiverr.com/sumunahmed1416?up_rollout=true" target="_blank" rel="noreferrer">{text}</a>
+      {
+        link[0] === '#' ? (
+          <a href={link} rel="noreferrer">{text}</a>
+        ): (
+          <a href={link} rel="noreferrer" target="_blank">{text}</a>
+        )
+      }
+      
     </ButtonContainer>
   </ButtonStyle>
 );

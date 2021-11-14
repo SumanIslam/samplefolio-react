@@ -41,6 +41,7 @@ export const AboutContentWrapperImage = styled.div`
     height: 100%;
     align-items: center;
     justify-content: center;
+    padding-bottom: 2rem;
 
     @media screen and ${breakpoint.device.tab_land} {
       height: 100%;
