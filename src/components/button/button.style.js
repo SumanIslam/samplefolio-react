@@ -20,8 +20,8 @@ export const ButtonContainer = styled.div`
   font-weight: bold;
   line-height: 1;
   z-index: 1;
-  color: ${props => props ? primaryColor : whiteColor};
-  border: ${props => props ? `2px solid ${primaryColor}`: `2px solid ${whiteColor}`};
+  color: ${props => props.primary ? primaryColor : whiteColor};
+  border: ${props => props.primary ? `2px solid ${primaryColor}`: `2px solid ${whiteColor}`};
   overflow: hidden;
 
   &::before {
@@ -32,7 +32,7 @@ export const ButtonContainer = styled.div`
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-color: ${props => props ? primaryColor : whiteColor};
+    background-color: ${props => props.primary ? primaryColor : whiteColor};
     transform: translateX(-100%);
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
   }
@@ -41,17 +41,17 @@ export const ButtonContainer = styled.div`
   }
   &:hover a {
     z-index: 1;
-    color: ${props => props ? whiteColor : primaryColor};
+    color: ${props => props.primary ? whiteColor : primaryColor};
   }
 
   & a {
     font-size: 1.5rem;
     text-decoration: none;
     z-index: 1;
-    color: ${props => props ? primaryColor : whiteColor};
+    color: ${props => props.primary ? primaryColor : whiteColor};
 
     &:hover {
-      color: ${props => props ? whiteColor : primaryColor};
+      color: ${props => props.primary ? whiteColor : primaryColor};
     }
 
     @media screen and ${breakpoint.device.phone} {
@@ -78,8 +78,8 @@ export const StyledLink = styled.div`
     height: 100%;
     left: 0;
     top: 0;
-    background: background: ${props => props ? primaryColor : whiteColor};
-    color: ${props => props ? whiteColor : primaryColor};
+    background: background: ${props => props.primary ? primaryColor : whiteColor};
+    color: ${props => props.primary ? whiteColor : primaryColor};
     transform: translateX(-100%);
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
   }

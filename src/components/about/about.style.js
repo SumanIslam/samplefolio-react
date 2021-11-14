@@ -32,7 +32,7 @@ export const AboutContainer = styled.div`
 
 export const AboutContentWrapper = styled.div`
   @media screen and ${breakpoint.device.phone} {
-      padding-bottom: 5rem;
+      padding-bottom: 3.125rem;
     }
 `;
 
@@ -46,7 +46,7 @@ export const AboutContentWrapperImage = styled.div`
       height: 100%;
     }
     @media screen and ${breakpoint.device.tab_port_sm} {
-      padding-bottom: 6.4rem;
+      padding-bottom: 4rem;
     }
 `;
 
@@ -60,4 +60,3 @@ export const AboutContentWrapperInfo = styled.div`
       align-items: center;
     }
 `;
-
