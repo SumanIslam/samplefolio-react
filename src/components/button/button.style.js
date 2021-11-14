@@ -16,12 +16,12 @@ export const ButtonStyle = styled.div`
 export const ButtonContainer = styled.div`
   display: inline-block;
   position: relative;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem ${defaultFontSize};
   font-weight: bold;
   line-height: 1;
   z-index: 1;
   color: ${props => props.primary ? primaryColor : whiteColor};
-  border: ${props => props.primary ? `2px solid ${primaryColor}`: `2px solid ${whiteColor}`};
+  border: ${props => props.primary ? `2px solid ${primaryColor}` : `2px solid ${whiteColor}`};
   overflow: hidden;
 
   &::before {
@@ -45,7 +45,7 @@ export const ButtonContainer = styled.div`
   }
 
   & a {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-decoration: none;
     z-index: 1;
     color: ${props => props.primary ? primaryColor : whiteColor};
@@ -57,33 +57,5 @@ export const ButtonContainer = styled.div`
     @media screen and ${breakpoint.device.phone} {
       font-size: 1.5rem;
     }
-  }
-`
-
-export const StyledLink = styled.div`
-  display: inline-block;
-  position: relative;
-  padding: 0.8rem ${defaultFontSize};
-  font-weight: bold;
-  line-height: 1;
-  z-index: 1;
-  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
-  border: 2px solid ${primaryColor};
-  
-  &::before {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: background: ${props => props.primary ? primaryColor : whiteColor};
-    color: ${props => props.primary ? whiteColor : primaryColor};
-    transform: translateX(-100%);
-    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
-  }
-  &:hover::before {
-    transform: translateX(0);
   }
 `;
