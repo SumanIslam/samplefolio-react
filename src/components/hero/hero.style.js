@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { whiteColor, darkBlueText, defaultFontSize } from "../../styles/variable";
+import { whiteColor, defaultFontSize } from "../../styles/variable";
 import breakpoint from "../../styles/breakpoint";
 
 export const HeroWrapper = styled.div`

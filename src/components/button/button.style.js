@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import breakpoint from "../../styles/breakpoint";
-import { defaultFontSize, secondaryColor, whiteColor, primaryColor } from "../../styles/variable";
+import { defaultFontSize, whiteColor, primaryColor } from "../../styles/variable";
 
 export const ButtonStyle = styled.div`
   display: flex;

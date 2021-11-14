@@ -8,8 +8,8 @@ export const darkBlueText = '#272341';
 
 // font size
 export const defaultFontSize = '1.6rem';
-export const bigFontSize = '4rem';
-export const midFontSize = '2.5rem';
+export const bigFontSize = '2.5rem';
+export const midFontSize = '2rem';
 
 // // COLORS
 // $primary-color: #02aab0;
