@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import Fade from 'react-reveal/Fade'
+
+// dependencies
+import Fade from 'react-reveal/Fade';
+
 
 // component
 import Button from "../button/button.component";
@@ -23,7 +26,7 @@ const Hero = () => {
   return (
     <HeroWrapper>
       <div>
-        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
+        <Fade left={isDesktop} bottom={isMobile} duration={500} delay={500} distance="30px">
           <HeroTitle>
             Hi, my name is <ColorSpan>Suman Islam</ColorSpan>
             <br />
@@ -31,7 +34,9 @@ const Hero = () => {
           </HeroTitle>
         </Fade>
         <Fade bottom={isDesktop} left={isMobile} duration={1000} delay={500} distance="30px">
-          <Button primary={true} text="Know More" link="#about"/>
+          
+            <Button primary={true} text="Know More" link={null}/>
+          
         </Fade>
       </div>
     </HeroWrapper>
