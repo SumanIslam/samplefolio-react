@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 // dependencies
 import Fade from 'react-reveal/Fade';
+import { v4 as uuidv4 } from 'uuid';
 
 // components
 import SectionTitle from "../section-title/section-title.component";
@@ -33,8 +34,8 @@ const About = ({ aboutInfo }) => {
 
   return (
     <AboutContainer id="about">
-      <div class="container">
-        <SectionTitle title="About Me"/>
+      <div className="container">
+        <SectionTitle title="About Me" />
         <AboutContentWrapper className="row">
           <div className="col-md-4 col-sm-12">
             <Fade bottom duration={1000} delay={600} distance="30px">
@@ -43,12 +44,12 @@ const About = ({ aboutInfo }) => {
               </AboutContentWrapperImage>
             </Fade>
           </div>
-          <div class="col-md-8 col-sm-12">
+          <div className="col-md-8 col-sm-12">
              <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <AboutContentWrapperInfo>
                 {
                   aboutInfo.map(info => (
-                    <AboutInfo content={info} />
+                    <AboutInfo key={uuidv4()} content={info} />
                   ))
                 }
                 <Button text="Resume" link="https://drive.google.com/file/d/1kV1WVnMWCvmQrfRZRjFKOdXbZCvwfjRn/view?usp=sharing"/>

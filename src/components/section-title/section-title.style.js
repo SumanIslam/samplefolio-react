@@ -6,6 +6,7 @@ export const TitleContainer = styled.h1`
   margin: 0;
   margin-bottom: 2.81rem;
   font-size: ${bigFontSize};
+  font-family: Montserrat,sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;

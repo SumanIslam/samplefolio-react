@@ -1,14 +1,11 @@
-import React, { useState, useEffect } from 'react';
-
+import React, { useEffect, useState } from 'react';
 // dependencies
-import Fade from 'react-reveal/Fade';
-
-
+import Fade from 'react-reveal';
 // component
 import Button from "../button/button.component";
-
 // styles
-import { HeroWrapper, HeroTitle, ColorSpan } from "./hero.style";
+import { ColorSpan, HeroTitle, HeroWrapper } from "./hero.style";
+
 
 const Hero = () => {
   const [isDesktop, setDesktop] = useState(false)
