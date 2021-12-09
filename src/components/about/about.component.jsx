@@ -64,8 +64,8 @@ const About = ({ aboutInfo }) => {
 
 About.defaultProps = {
   aboutInfo: [
-    "Hey there! My name is Suman Islam, a self taught Developer, tech enthusiast, JavaScript lover. I develope quality responsive websites, clean user interfaces and rich interactive web apps targeting JavaScript, React, Node and other web technologies. I'm open to learn and adapt to work, use skills to solve complex challenges, provide value to the growth of an organization",
-    "Until now, I have worked on Solo, Fully responsive, Front-end Web-based projects built from scratch and looking further to gain experience of working on full-stack web based projects in a team to work according to best industry practices to write maintainable code."
+    "Hey there! My name is Suman Islam, a self-taught developer, tech enthusiast, JavaScript lover. I develop quality responsive websites, clean user interfaces, and rich interactive web apps targeting JavaScript, React, Node, and other web technologies. I'm open to learning and adapting to work, using skills to solve complex challenges, provide value to the growth of an organization",
+    "Until now, I have worked on solo, Fully responsive, Front-end web-based projects built from scratch and looking further to gain experience of working on full-stack web-based projects in a team to work according to best industry practices to write maintainable code."
   ]
 }
 
