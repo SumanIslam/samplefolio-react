@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import breakpoint from '../../styles/breakpoint';
-import { whiteColor, darkBlueText } from "../../styles/variable";
+import breakpoint from '../../utils/breakpoint';
+import { whiteColor, darkBlueText } from "../../utils/variable";
 
 export const ProjectSectionContainer = styled.section`
   background-color: ${whiteColor};

@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { primaryColor, secondaryColor, darkColor, whiteColor } from "../../styles/variable";
-import breakpoint from "../../styles/breakpoint";
+import { primaryColor, secondaryColor, darkColor, whiteColor } from "../../utils/variable";
+import breakpoint from "../../utils/breakpoint";
 
 export const SkillSectionContainer = styled.section`
   background-image: linear-gradient(

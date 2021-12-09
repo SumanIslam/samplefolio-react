@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { whiteColor, defaultFontSize } from "../../styles/variable";
-import breakpoint from "../../styles/breakpoint";
+import { whiteColor, defaultFontSize } from "../../utils/variable";
+import breakpoint from "../../utils/breakpoint";
 
 export const HeroWrapper = styled.div`
   min-height: 100vh;

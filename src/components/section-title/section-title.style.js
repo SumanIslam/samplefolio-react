@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { bigFontSize } from "../../styles/variable";
-import breakpoint from "../../styles/breakpoint";
+import { bigFontSize } from "../../utils/variable";
+import breakpoint from "../../utils/breakpoint";
 
 export const TitleContainer = styled.h1`
   margin: 0;

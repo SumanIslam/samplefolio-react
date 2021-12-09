@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { primaryColor, secondaryColor, whiteColor } from "../../styles/variable";
-import breakpoint from "../../styles/breakpoint";
+import { primaryColor, secondaryColor, whiteColor } from "../../utils/variable";
+import breakpoint from "../../utils/breakpoint";
 
 export const AboutContainer = styled.div`
   padding: 2rem 0rem;

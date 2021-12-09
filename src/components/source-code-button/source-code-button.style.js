@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { defaultFontSize, primaryColor } from "../../styles/variable";
-import breakpoint from "../../styles/breakpoint";
+import { defaultFontSize, primaryColor } from "../../utils/variable";
+import breakpoint from "../../utils/breakpoint";
 
 export const SrcButtonContainer = styled.div`
   display: inline-block;

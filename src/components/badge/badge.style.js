@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { primaryColor } from "../../styles/variable";
+import { primaryColor } from "../../utils/variable";
 
 export const BadgeWrapper = styled.div`
   display: inline-block;

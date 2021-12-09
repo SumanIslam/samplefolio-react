@@ -2,7 +2,7 @@ import React from "react";
 // dependencies
 import { Event, Timeline } from 'react-trivial-timeline';
 // styles
-import { primaryColor, whiteColor, secondaryColor } from "../../styles/variable";
+import { primaryColor, whiteColor } from "../../utils/variable";
 // components
 import SectionTitle from '../section-title/section-title.component';
 import { EducationSectionContainer, TimelineContainer } from './education.style';

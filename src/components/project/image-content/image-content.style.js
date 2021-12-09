@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import breakpoint from "../../../styles/breakpoint";
+import breakpoint from "../../../utils/breakpoint";
 
 export const ImageContentWrapper = styled.div`
   width: 90%;

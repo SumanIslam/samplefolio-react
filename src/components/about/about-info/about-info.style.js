@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import breakpoint from "../../../styles/breakpoint";
-import { whiteColor } from "../../../styles/variable";
+import { whiteColor } from "../../../utils/variable";
+import breakpoint from "../../../utils/breakpoint";
 
 export const AboutContentWrapperInfoText = styled.p`
     text-align: left;

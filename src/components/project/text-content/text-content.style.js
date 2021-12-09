@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import breakpoint from "../../../styles/breakpoint";
-import { midFontSize } from "../../../styles/variable";
+import breakpoint from "../../../utils/breakpoint";
+import { midFontSize } from "../../../utils/variable";
 
 export const TextContentWrapper = styled.div`
   text-align: left;
