@@ -1,21 +1,16 @@
 import styled from "styled-components";
 import { whiteColor, defaultFontSize, darkColor } from '../../utils/variable';
+import breakpoint from '../../utils/breakpoint';
 
 export const FooterContainer = styled.section`
   background-color: ${darkColor};
   color: ${whiteColor};
   padding: 2rem;
 
-
-  a.back-to-top {
-    text-align: center;
-  }
-
   .back-to-top i {
     color: ${whiteColor};
     margin: 1rem 0 ${defaultFontSize};
     transition: all 0.2s ease-in;
-    text-align: center;
 
     &:hover {
       transform: translateY(-2px);
@@ -30,6 +25,17 @@ export const FooterContainer = styled.section`
     border: 0;
     width: 60%;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+    @media screen and ${breakpoint.device.tab_port_sm} {
+      width: 80%;
+      margin-left:10% !important;
+      margin-right:10% !important;
+    }
+    @media screen and ${breakpoint.device.phone} {
+      width: 100%;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
   }
 
   & .footer-text {
@@ -38,6 +44,10 @@ export const FooterContainer = styled.section`
     display: block;
     width: 100%;
     text-align: center;
+
+    @media screen and ${breakpoint.device.phone} {
+      font-size: 1rem;
+    }
   }
 `;
 

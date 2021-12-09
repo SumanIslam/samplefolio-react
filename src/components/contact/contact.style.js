@@ -34,4 +34,8 @@ export const ContentWrapperText = styled.div`
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
   margin-top: -1.5rem;
+
+  @media screen and ${breakpoint.device.phone} {
+    font-size: 1.2rem;
+  }
 ;`
