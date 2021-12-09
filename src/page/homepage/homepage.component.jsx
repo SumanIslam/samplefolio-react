@@ -7,6 +7,7 @@ import Project from "../../components/project/project-section.component";
 import Skill from "../../components/skill/skill.component";
 import Education from '../../components/education/education.component';
 import Contact from '../../components/contact/contact.component';
+import Footer from '../../components/footer/footer.component';
 
 const Homepage = () => (
   <>
@@ -16,6 +17,7 @@ const Homepage = () => (
     <Skill />
     <Education />
     <Contact />
+    <Footer />
   </>
   
 );
