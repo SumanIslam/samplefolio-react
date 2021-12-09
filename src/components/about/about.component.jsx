@@ -52,7 +52,7 @@ const About = ({ aboutInfo }) => {
                     <AboutInfo key={uuidv4()} content={info} />
                   ))
                 }
-                <Button text="Resume" link="https://drive.google.com/file/d/1kV1WVnMWCvmQrfRZRjFKOdXbZCvwfjRn/view?usp=sharing"/>
+                <Button text="Resume" link="https://drive.google.com/u/0/uc?id=1kV1WVnMWCvmQrfRZRjFKOdXbZCvwfjRn&export=download"/>
               </AboutContentWrapperInfo>
             </Fade>
           </div>

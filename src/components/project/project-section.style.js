@@ -1,11 +1,13 @@
 import styled from "styled-components";
-import breakpoint from '../../styles/breakpoint'
+import breakpoint from '../../styles/breakpoint';
+import { whiteColor, darkBlueText } from "../../styles/variable";
 
 export const ProjectSectionContainer = styled.section`
-  background-color: $white-color;
-  color: $dark-blue-text;
+  background-color: ${whiteColor};
+  color: ${darkBlueText};
   margin-top: -6.25rem;
   padding-top: 9.375rem;
+  margin-bottom: 10rem;
 
   @media screen and ${breakpoint.device.tab_land} {
     margin-top: 0;

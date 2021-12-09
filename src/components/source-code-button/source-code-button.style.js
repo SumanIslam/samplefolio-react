@@ -15,7 +15,7 @@ export const SrcButtonContainer = styled.div`
   }
 
   & a {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-decoration: none;
     z-index: 1;
     cursor:pointer;
