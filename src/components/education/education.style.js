@@ -4,7 +4,7 @@ import breakpoint from "../../utils/breakpoint";
 
 export const EducationSectionContainer = styled.section`
   background-color: ${whiteColor};
-  padding: 2rem 0 4rem;
+  padding: 2rem 0;
 `;
 
 export const TimelineContainer = styled.div`
