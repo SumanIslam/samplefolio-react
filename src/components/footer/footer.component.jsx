@@ -4,7 +4,7 @@ import React from "react";
 import { Link } from 'react-scroll';
 
 // styles
-import { FooterContainer, SocialLinkContainer, footerText } from "./footer.style";
+import { FooterContainer, SocialLinkContainer } from "./footer.style";
 
 const Footer = () => (
   <FooterContainer className="navbar-static-form">

@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 // component
 import { ButtonStyle, ButtonContainer } from "./button.style";
 
-const Button = ({ primary, text, link }) => (
+const Button = ({ primary, text, link, navigate }) => (
   <ButtonStyle>
     <ButtonContainer primary={primary}>
       {
@@ -15,7 +15,7 @@ const Button = ({ primary, text, link }) => (
         ) :
         (
           <span>
-            <Link to="about" smooth duration={500}>{text}</Link>
+            <Link to={navigate} smooth duration={500}>{text}</Link>
           </span>
         )
       }

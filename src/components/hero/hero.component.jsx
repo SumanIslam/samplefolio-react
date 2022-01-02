@@ -31,7 +31,7 @@ const Hero = () => {
           </HeroTitle>
         </Fade>
         <Fade bottom={isDesktop} left={isMobile} duration={1000} delay={500} distance="30px">
-          <Button primary={true} text="Know More" link={null}/>
+          <Button primary={true} text="Know More" link={null} navigate="about" />
         </Fade>
       </div>
     </HeroWrapper>

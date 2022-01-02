@@ -23,3 +23,7 @@ export const ProjectContentWrapper = styled.div`
       margin-bottom: 0rem;
     }
 `;
+
+export const ProjectButton = styled.div`
+  text-align: center;
+`;

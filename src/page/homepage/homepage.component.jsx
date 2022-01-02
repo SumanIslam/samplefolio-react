@@ -1,5 +1,6 @@
 import React from "react";
 
+
 // components
 import Hero from "../../components/hero/hero.component";
 import About from '../../components/about/about.component'

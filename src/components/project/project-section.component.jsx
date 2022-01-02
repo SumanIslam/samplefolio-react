@@ -2,6 +2,7 @@ import React from "react";
 
 // dependencies
 import { v4 as uuidv4 } from 'uuid';
+import { Link } from "react-router-dom";
 // components
 import ProjectMainContent from "./project-main-content/project-main-content";
 import SectionTitle from '../section-title/section-title.component';
@@ -11,7 +12,8 @@ import CrawnClothing from "../../assets/crwn-clothing.png";
 import MoviesHome from '../../assets/movieshome.png';
 
 // styles
-import { ProjectSectionContainer, ProjectContentWrapper } from "./project-section.style";
+import { ProjectSectionContainer, ProjectContentWrapper, ProjectButton } from "./project-section.style";
+import { ButtonStyle, ButtonContainer } from "../button/button.style";
 
 const Project = ({ projects }) => {
   return (
@@ -25,6 +27,13 @@ const Project = ({ projects }) => {
             ))
           }
         </ProjectContentWrapper>
+        <ProjectButton>
+            <ButtonContainer primary="primary">
+              <span>
+                <Link to="projects">See More Projects</Link>
+              </span>
+            </ButtonContainer>
+        </ProjectButton>
       </div>
     </ProjectSectionContainer>
   )
