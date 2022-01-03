@@ -1,8 +1,7 @@
-import React from "react";
 // images
 import CrawnClothing from "../../assets/crwn-clothing.png";
-import MoviesHome from '../../assets/movieshome.png';
-import NasaMissionControl from '../../assets/nasa-mission-control.png'
+import NasaMissionControl from '../../assets/nasa-mission-control.png';
+import colorPalette from '../../assets/color-palette.png';
 
 
 export const projectsData = [
@@ -11,7 +10,7 @@ export const projectsData = [
     title: "NASA MISSION CONTROL",
     description1: "NASA MISSION CONTROL is a Full-Stack Wep Application",
     description2: `Front-end built with React with help of arwes library.Arwes is a Futuristic Sci-Fi UI Web Framework. The backend is served by Node, Launches are handled by SpaceX API, Login with OAuth and email. This site is styled with CSS in JS. Test are done by jest.`,
-    stack: ["React","CSS in Js","Arwes","Node","Express", "SpaceX-Api", "MongoDB", "mongoose"],
+    stack: ["React","CSS-in-JS","Arwes","Node","Express", "SpaceX-Api", "MongoDB", "mongoose"],
     liveLink:"https://crwn-live-preview.herokuapp.com/",
     sourceLink: "https://github.com/SumanIslam/NASA-mission-control-project",
     imageSource: NasaMissionControl,
@@ -28,22 +27,14 @@ export const projectsData = [
   },
   {
     id: 3,
-    title: "Crwn Clothing",
-    description1: "Crwn Clothing is a fictional E-commerce Wep Application",
-    description2: "Omnifood a fictional restaurant website where customer can find healthy foods. Here you will get 24/7 service. It has various menu items. You can order online too.",
-    stack: ["React","Redux","Styled-Component","Node","Firebase"],
-    liveLink:"https://crwn-live-preview.herokuapp.com/",
-    sourceLink: "https://github.com/SumanIslam/omnifood",
-    imageSource: MoviesHome,
-  },
-  {
-    id: 4,
-    title: "Crwn Clothing",
-    description1: "Crwn Clothing is a fictional E-commerce Wep Application",
-    description2: "Omnifood a fictional restaurant website where customer can find healthy foods. Here you will get 24/7 service. It has various menu items. You can order online too.",
-    stack: ["React","Redux","Styled-Component","Node","Firebase"],
-    liveLink:"https://crwn-live-preview.herokuapp.com/",
-    sourceLink: "https://github.com/SumanIslam/omnifood",
-    imageSource: MoviesHome,
+    title: "Color Palette",
+    description1: "Color Palette is Front-End Web Application",
+    description2: "It's built with React. The color shade is served by Chroma js, Plenty of library used such as emoji-mart, React color for color-picker, react-copy-to-clipboard for copy on click, react-material-ui-form-validator, react-transition-group for animation. Styling was done by Material-UI and CSS-in-JS",
+    stack: [
+      "React","Material UI","CSS-in-JS","chroma","react-color","react-transition-group"
+    ],
+    liveLink:"https://ui-color-palette-react.vercel.app/",
+    sourceLink: "https://github.com/SumanIslam/ui-color-palette-react",
+    imageSource: colorPalette,
   },
 ];

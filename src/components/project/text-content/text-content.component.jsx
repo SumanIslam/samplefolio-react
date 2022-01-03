@@ -14,7 +14,7 @@ const TextContent = ({ title, description1, description2, stack, liveLink, sourc
     <TextContentTitle>{title}</TextContentTitle>
     <TextContentWrapper>
       <div>
-        <p className="mb-4">
+        <p className="mb-1 mt-1">
           {description1}
         </p>
         <p className="mb-4">
