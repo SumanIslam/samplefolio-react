@@ -10,6 +10,7 @@ import Education from '../../components/education/education.component';
 import Contact from '../../components/contact/contact.component';
 import Footer from '../../components/footer/footer.component';
 
+
 const Homepage = () => (
   <>
     <Hero />

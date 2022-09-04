@@ -10,31 +10,31 @@ import SectionTitle from '../section-title/section-title.component';
 import ProjectMainContent from "./project-main-content/project-main-content";
 
 // data
-import { projectsData } from "./project-data";
+import { projectsData } from "../../constants/projects.data";
 
 // styles
 import { ProjectButton, ProjectContentWrapper, ProjectSectionContainer } from "./project-section.style";
 
 const Project = () => (
-  <ProjectSectionContainer>
-    <div className="container">
-      <ProjectContentWrapper>
-        <SectionTitle title="Projects" />
-        {
-          projectsData.map(project => (
-            <ProjectMainContent key={uuidv4()} project={project} />
-          ))
-        }
-      </ProjectContentWrapper>
-      <ProjectButton>
-          <ButtonContainer primary="primary">
-            <span>
-              <Link to="projects">See More Projects</Link>
-            </span>
-          </ButtonContainer>
-      </ProjectButton>
-    </div>
-  </ProjectSectionContainer>
+	<ProjectSectionContainer>
+		<div className='container'>
+			<ProjectContentWrapper>
+				<SectionTitle title='Projects' />
+				{projectsData
+					.filter((data) => data.id <= 3)
+					.map((project) => (
+						<ProjectMainContent key={uuidv4()} project={project} />
+					))}
+			</ProjectContentWrapper>
+			<ProjectButton>
+				<ButtonContainer primary='primary'>
+					<span>
+						<Link to='projects'>See More Projects</Link>
+					</span>
+				</ButtonContainer>
+			</ProjectButton>
+		</div>
+	</ProjectSectionContainer>
 );
 
 export default Project;
