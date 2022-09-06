@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 // dependencies
 import { v4 as uuidv4 } from 'uuid';
@@ -16,18 +16,29 @@ import {
 // data
 import { projectsData } from '../../constants/projects.data.js';
 
-const ProjectPage = () => (
-	<ProjectPageContainer>
-		<div className='container'>
-			<ProjectContentWrapper>
-				<SectionTitle title='Project' />
-				{projectsData
-					.map((project) => (
+const ProjectPage = () => {
+	useEffect(() => {
+		const handleScroll = () => {
+			if(window.scrollY > 0) {
+				// eslint-disable-next-line no-restricted-globals
+				return scrollTo(0,0)
+			}
+		}
+
+		handleScroll();
+	})
+	
+	return (
+		<ProjectPageContainer>
+			<div className='container'>
+				<ProjectContentWrapper>
+					<SectionTitle title='Project' />
+					{projectsData.map((project) => (
 						<ProjectMainContent key={uuidv4()} project={project} />
 					))}
-			</ProjectContentWrapper>
-		</div>
-	</ProjectPageContainer>
-);
-
+				</ProjectContentWrapper>
+			</div>
+		</ProjectPageContainer>
+	);
+}
 export default ProjectPage;
