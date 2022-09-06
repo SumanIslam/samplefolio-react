@@ -4,6 +4,7 @@ import CrawnClothing from '../assets/crwn-clothing.png';
 import NasaMissionControl from '../assets/nasa-mission-control.png';
 import ProjectManagement from '../assets/project-management.png';
 import Weatherin from '../assets/weatherin.png';
+import diceplay from '../assets/diceplay.png';
 
 export const projectsData = [
 	{
@@ -92,10 +93,21 @@ export const projectsData = [
 		title: 'Weatherin App',
 		description1: 'Weatherin is a Front-End Web Application.',
 		description2:
-			'This is a weather web application where you can get the weather details. You can search for cities or countries to see the weather condition. You can see whether it is day or night at that moment and whether it is rainy, sunny or cloudy. You can also see the temperature in celsius.',
-		stack: ['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'AccuWeather API'],
+			'This is a weather web application where you can get the weather details. You can search for cities or countries to see the weather condition of that place. You can also see whether it is day or night at that moment and whether it is rainy, sunny or cloudy. You can also see the temperature in celsius.',
+		stack: ['HTML', 'CSS', 'Bootstrap', 'Vanila JavaScript', 'AccuWeather API'],
 		liveLink: 'https://weatherin.vercel.app/',
 		sourceLink: 'https://github.com/SumanIslam/Weather-app-1',
 		imageSource: Weatherin,
+	},
+	{
+		id: 6,
+		title: 'DicePlay App',
+		description1: 'DicePlay is a Front-End Web Application.',
+		description2:
+			'This is a web application where you can play the dice game also known as pig game. It requires two players to play the game. If player1 score 100 points first then player1 will be the winner and same for player2. Perhaps you loose in this game if you are greedy in scoring points. Sometimes, there will be opportunity for scoring but have to take step wisely.',
+		stack: ['HTML', 'CSS', 'Vanila JavaScript'],
+		liveLink: 'https://diceplay-two.vercel.app/',
+		sourceLink: 'https://github.com/SumanIslam/pig-game',
+		imageSource: diceplay,
 	},
 ];
