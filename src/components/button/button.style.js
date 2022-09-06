@@ -45,7 +45,7 @@ export const ButtonContainer = styled.div`
   }
 
   & a, & span {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-decoration: none;
     z-index: 1;
     cursor:pointer;
@@ -56,7 +56,7 @@ export const ButtonContainer = styled.div`
     }
 
     @media screen and ${breakpoint.device.phone} {
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
   }
 `;
