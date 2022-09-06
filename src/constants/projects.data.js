@@ -2,6 +2,7 @@
 import colorPalette from '../assets/color-palette.png';
 import CrawnClothing from '../assets/crwn-clothing.png';
 import NasaMissionControl from '../assets/nasa-mission-control.png';
+import ProjectManagement from '../assets/project-management.png'
 
 export const projectsData = [
 	{
@@ -64,5 +65,25 @@ export const projectsData = [
 		sourceLink: 'https://github.com/SumanIslam/ui-color-palette-react',
 		imageSource: colorPalette,
 	},
-	
+	{
+		id: 4,
+		title: 'Project Management',
+		description1: 'Project Management is a Full-Stack Web Application.',
+		description2:
+			'This is a project management application where you can manage your projects. You can see all of your projects and clients associated with projects. You can also see the project details and can update details if needed. Besides, you can add projects and clients.',
+		stack: [
+			'React',
+			'Bootstrap',
+			'Node.js',
+			'Express',
+			'GraphQL',
+			'Apollo Client',
+			'mongoDB',
+			'mongoose',
+			'react-icons',
+		],
+		liveLink: 'https://projectmngtapp.herokuapp.com/',
+		sourceLink: 'https://github.com/SumanIslam/Project-mngt-app',
+		imageSource: ProjectManagement,
+	},
 ];

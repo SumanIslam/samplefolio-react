@@ -29,7 +29,7 @@ const Project = () => (
 			<ProjectButton>
 				<ButtonContainer primary='primary'>
 					<span>
-						<Link to='projects'>See More Projects</Link>
+						<Link to='/projects'>See More Projects</Link>
 					</span>
 				</ButtonContainer>
 			</ProjectButton>
