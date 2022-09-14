@@ -5,7 +5,8 @@ import NasaMissionControl from '../assets/nasa-mission-control.png';
 import ProjectManagement from '../assets/project-management.png';
 import Weatherin from '../assets/weatherin.png';
 import Diceplay from '../assets/diceplay.png';
-import MovieTicketBooking from '../assets/movie-ticket-booking.png'
+import MovieTicketBooking from '../assets/movie-ticket-booking.png';
+import LightsOut from '../assets/lightsout.png';
 
 export const projectsData = [
 	{
@@ -121,5 +122,16 @@ export const projectsData = [
 		liveLink: 'https://movieticketbooking.vercel.app/',
 		sourceLink: 'https://github.com/SumanIslam/movie-ticket-booking',
 		imageSource: MovieTicketBooking,
+	},
+	{
+		id: 8,
+		title: 'Lights Out Game App',
+		description1: 'Lights Out Game is a Front-End Web Game Application.',
+		description2:
+			'This is a web application where you can play the lights out game. There are total 25 tiles in 5 rows and 5 columns. When you click on one tiles, this tiles and other tiles deactivated tiles adjacent to the clicked tiles become activated and there are activated tiles adjacent to the clicked tiles those become deactivated. You will be consider as winner if you can make all the tiles deactivated.',
+		stack: ['React', 'CSS', 'JavaScript'],
+		liveLink: 'https://lightsoutgame-theta.vercel.app/',
+		sourceLink: 'https://github.com/SumanIslam/lights-out-game-react',
+		imageSource: LightsOut,
 	},
 ];
