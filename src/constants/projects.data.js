@@ -1,10 +1,11 @@
 // images
-import colorPalette from '../assets/color-palette.png';
+import ColorPalette from '../assets/color-palette.png';
 import CrawnClothing from '../assets/crwn-clothing.png';
 import NasaMissionControl from '../assets/nasa-mission-control.png';
 import ProjectManagement from '../assets/project-management.png';
 import Weatherin from '../assets/weatherin.png';
-import diceplay from '../assets/diceplay.png';
+import Diceplay from '../assets/diceplay.png';
+import MovieTicketBooking from '../assets/movie-ticket-booking.png'
 
 export const projectsData = [
 	{
@@ -65,7 +66,7 @@ export const projectsData = [
 		],
 		liveLink: 'https://ui-color-palette-react.vercel.app/',
 		sourceLink: 'https://github.com/SumanIslam/ui-color-palette-react',
-		imageSource: colorPalette,
+		imageSource: ColorPalette,
 	},
 	{
 		id: 4,
@@ -108,6 +109,17 @@ export const projectsData = [
 		stack: ['HTML', 'CSS', 'Vanila JavaScript'],
 		liveLink: 'https://diceplay-two.vercel.app/',
 		sourceLink: 'https://github.com/SumanIslam/pig-game',
-		imageSource: diceplay,
+		imageSource: Diceplay,
+	},
+	{
+		id: 7,
+		title: 'Movie Ticket Booking App',
+		description1: 'Movie Ticket Booking is a Front-End Web Application.',
+		description2:
+			'This is a web application where you can book the movie ticket. You can book ticket for different movies for different price. You can see the Available and occupied seats. When you select the seat you will see the selected seat in different color that helps you distinguish selected and other seats. Besides, you can also see the number of seats you booked and the total price of those seats.',
+		stack: ['React', 'CSS', 'Context API', 'React Hooks'],
+		liveLink: 'https://movieticketbooking.vercel.app/',
+		sourceLink: 'https://github.com/SumanIslam/movie-ticket-booking',
+		imageSource: MovieTicketBooking,
 	},
 ];
