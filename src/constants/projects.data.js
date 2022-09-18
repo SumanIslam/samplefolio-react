@@ -67,7 +67,7 @@ export const projectsData = [
 			'react-transition-group',
 			'react-copy-to-clipboard',
 		],
-		liveLink: 'https://ui-color-palette-react.vercel.app/',
+		liveLink: 'https://uicolor.vercel.app/',
 		sourceLink: 'https://github.com/SumanIslam/ui-color-palette-react',
 		imageSource: ColorPalette,
 	},
@@ -148,7 +148,7 @@ export const projectsData = [
 		title: 'Dad Jokes App',
 		description1: 'Dad Jokes is a Front-End Web Application.',
 		description2:
-			"This is a web application where you can see unlimited random jokes. Dad Jokes API has been used to fetch the jokes and display. You can upvote or downvote the jokes. Depending on the vote the jokes will be sorted by ascending. Besides, You will see different smile emoji based on votes. Initially you will see 10 jokes but can see more jokes by clicking on the \'new jokes\' button.",
+			"This is a web application where you can see unlimited random jokes. Dad Jokes API has been used to fetch the jokes and display. You can upvote or downvote the jokes. Depending on the vote the jokes will be sorted by ascending. Besides, You will see different smile emoji based on votes. Initially you will see 10 jokes but can see more jokes by clicking on the 'new jokes' button.",
 		stack: ['React', 'CSS', 'DadJokes API', 'Local Storage'],
 		liveLink: 'https://dadjokes-pi.vercel.app/',
 		sourceLink: 'https://github.com/SumanIslam/Dad-jokes-app-react/',
@@ -157,7 +157,7 @@ export const projectsData = [
 	{
 		id: 10,
 		title: 'Infinity Scroll App',
-		description1: 'Infinity Scroll is a Front-End Web Game Application.',
+		description1: 'Infinity Scroll is a Front-End Web Application.',
 		description2:
 			"This is a web application where you can see unlimited random photos. Unsplash API has been used to fetch the photos and display. You find photos and photos by scrolling. It's a never ending cycle. When you will get to the bottom of screen by scrolling another API call will be made and fetch random photos.",
 		stack: ['HTML', 'CSS', 'JavaScript', 'Unsplash API'],
