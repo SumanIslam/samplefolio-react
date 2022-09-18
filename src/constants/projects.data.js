@@ -8,12 +8,13 @@ import Diceplay from '../assets/diceplay.png';
 import MovieTicketBooking from '../assets/movie-ticket-booking.png';
 import LightsOut from '../assets/lightsout.png';
 import InfinityScroll from '../assets/infinity.png';
+import DadJokes from '../assets/dadjokes.png'
 
 export const projectsData = [
 	{
 		id: 1,
 		title: 'NASA MISSION CONTROL',
-		description1: 'NASA MISSION CONTROL is a Full-Stack Wep Application.',
+		description1: 'NASA MISSION CONTROL is a Full-Stack Web Application.',
 		description2: `You can schedule a mission launch for interstellar travel to one of the Kepler Exoplanets. You can see the history of mission launches including SpaceX launches starting from the year 2006. You can also see the upcoming missions of SpaceX.`,
 		stack: [
 			'React',
@@ -141,6 +142,17 @@ export const projectsData = [
 		liveLink: 'https://lightsoutgame-theta.vercel.app/',
 		sourceLink: 'https://github.com/SumanIslam/lights-out-game-react',
 		imageSource: LightsOut,
+	},
+	{
+		id: 9,
+		title: 'Dad Jokes App',
+		description1: 'Dad Jokes is a Front-End Web Application.',
+		description2:
+			"This is a web application where you can see unlimited random jokes. Dad Jokes API has been used to fetch the jokes and display. You can upvote or downvote the jokes. Depending on the vote the jokes will be sorted by ascending. Besides, You will see different smile emoji based on votes. Initially you will see 10 jokes but can see more jokes by clicking on the \'new jokes\' button.",
+		stack: ['React', 'CSS', 'DadJokes API', 'Local Storage'],
+		liveLink: 'https://dadjokes-pi.vercel.app/',
+		sourceLink: 'https://github.com/SumanIslam/Dad-jokes-app-react/',
+		imageSource: DadJokes,
 	},
 	{
 		id: 10,
