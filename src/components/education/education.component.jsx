@@ -14,14 +14,14 @@ const Education = () => (
     <TimelineContainer>
       <Timeline>
         <Event
-          interval={{ start: 2019 }}
+          interval={{ start: 2019, end: 2022 }}
           title="B.Sc In Computer Science And Engineering"
           iconFill={primaryColor}
           iconOutline={null}
           intervalBackground={primaryColor}
           intervalColor={whiteColor}
         >
-          I am currently a 4th year Student at Uttara University.
+          I completed my B.Sc from Uttara University with CGPA 3.99.
         </Event>
         <Event 
           interval="2015 – 2017"
