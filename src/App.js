@@ -7,6 +7,8 @@ import {
 // components
 import Homepage from './page/homepage/homepage.component';
 import ProjectPage from './page/project-page/project-page.component';
+
+// styles
 import './App.css';
 
 const App = () => (

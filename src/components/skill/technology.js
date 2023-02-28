@@ -52,15 +52,23 @@ export const technologies = [
         name: 'MongoDB',
     },
     {
-      id: 14,
-      name: 'Firebase'
+        id: 14,
+        name: 'Rest API'
     },
     {
-      id: 15,
-      name: 'Material UI'
+        id: 15,
+        name: 'GraphQL'
     },
     {
         id: 16,
+        name: 'Firebase'
+    },
+    {
+        id: 17,
+        name: 'Material UI'
+    },
+    {
+        id: 18,
         name: 'Git',
     }, 
 ];

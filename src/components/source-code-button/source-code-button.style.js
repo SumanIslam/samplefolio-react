@@ -22,7 +22,7 @@ export const SrcButtonContainer = styled.div`
     color: ${primaryColor};
 
     @media screen and ${breakpoint.device.phone} {
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
   }
 `

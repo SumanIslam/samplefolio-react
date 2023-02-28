@@ -3,7 +3,7 @@ import breakpoint from "../../../utils/breakpoint";
 import { midFontSize } from "../../../utils/variable";
 
 export const TextContentWrapper = styled.div`
-  text-align: left;
+  text-align: justify;
 
   @media screen and ${breakpoint.device.phone} {
     margin-bottom: 1.5625rem !important;
