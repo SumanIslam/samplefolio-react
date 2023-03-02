@@ -21,7 +21,7 @@ const Project = () => (
 			<ProjectContentWrapper>
 				<SectionTitle title='Projects' />
 				{projectsData
-					.filter((data) => data.id <= 3)
+					.filter((data) => data.showcase)
 					.map((project) => (
 						<ProjectMainContent key={uuidv4()} project={project} />
 					))}

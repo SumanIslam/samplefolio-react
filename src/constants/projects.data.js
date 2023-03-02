@@ -1,4 +1,8 @@
+// dependencies
+import { v4 as uuidv4 } from 'uuid';
+
 // images
+import DoorToNikah from '../assets/doortonikah.png'
 import ColorPalette from '../assets/color-palette.png';
 import CrawnClothing from '../assets/crwn-clothing.png';
 import NasaMissionControl from '../assets/nasa-mission-control.png';
@@ -8,11 +12,53 @@ import Diceplay from '../assets/diceplay.png';
 import MovieTicketBooking from '../assets/movie-ticket-booking.png';
 import LightsOut from '../assets/lightsout.png';
 import InfinityScroll from '../assets/infinity.png';
-import DadJokes from '../assets/dadjokes.png'
+import DadJokes from '../assets/dadjokes.png';
+import HangMan from '../assets/hangman.png';
+import ToDo from '../assets/todo.png'
 
 export const projectsData = [
 	{
-		id: 1,
+		id: uuidv4(),
+		title: 'DOOR TO NIKAH',
+		description1:
+			'DOOR TO NIKAH is a Full-Stack Islamic Matrimony Web Application.',
+		description2: `It is an Islamic matrimony web application that will serve the Bangladeshi practicing Muslim community. This application will help Muslims to find the religious life partner. Users can upload their biodata or can see others biodata. User can get the contact details of other users by paying some money`,
+		stack: [
+			'React',
+			'Node.js',
+			'Express.js',
+			'MongoDB',
+			'Bootstrap',
+			'MUI',
+			'Mongoose',
+		],
+		liveLink: 'https://doortonikah.vercel.app/',
+		frontendCode: 'https://github.com/SumanIslam/DoorToNikah',
+		backendCode: 'https://github.com/SumanIslam/DoorToNikahBackend',
+		imageSource: DoorToNikah,
+		showcase: true,
+	},
+	{
+		id: uuidv4(),
+		title: 'Color Palette',
+		description1: 'Color Palette is a Front-End Web Application',
+		description2:
+			'This is a color picker website where you can get a lot of colors. It has 9 different color palette and each color palette has 24 different colors. For each color palette you can change the intensity level [100-900] of color by change the intensity level using level slider. Besides each color has 9 shades.',
+		stack: [
+			'React',
+			'Material UI',
+			'CSS-in-JS',
+			'chroma.js',
+			'react-color',
+			'react-copy-to-clipboard',
+		],
+		liveLink: 'https://uicolor.vercel.app/',
+		sourceLink: 'https://github.com/SumanIslam/ui-color-palette-react',
+		imageSource: ColorPalette,
+		showcase: true,
+	},
+	{
+		id: uuidv4(),
 		title: 'NASA MISSION CONTROL',
 		description1: 'NASA MISSION CONTROL is a Full-Stack Web Application.',
 		description2: `You can schedule a mission launch for interstellar travel to one of the Kepler Exoplanets. You can see the history of mission launches including SpaceX launches starting from the year 2006. You can also see the upcoming missions of SpaceX.`,
@@ -26,14 +72,16 @@ export const projectsData = [
 			'MongoDB',
 			'Mongoose',
 			'Jest',
-			'Supertest',
 		],
-		liveLink: 'https://nasamissioncontrolapp.herokuapp.com/',
-		sourceLink: 'https://github.com/SumanIslam/NASA-mission-control-project',
+		liveLink: 'https://nasamissioncontrol.vercel.app/',
+		frontendCode: 'https://github.com/SumanIslam/NASA-mission-control-project',
+		backendCode:
+			'https://github.com/SumanIslam/Nasa-mission-control-app-backend',
 		imageSource: NasaMissionControl,
+		showcase: true,
 	},
 	{
-		id: 2,
+		id: uuidv4(),
 		title: 'Crwn Clothing',
 		description1: 'Crwn Clothing is a Front-end E-commerce Wep Application',
 		description2:
@@ -47,32 +95,12 @@ export const projectsData = [
 			'Firebase',
 			'Stripe',
 		],
-		liveLink: 'https://crownclothapp.herokuapp.com/',
+		liveLink: 'https://crwn-clothing-production-dde7.up.railway.app/',
 		sourceLink: 'https://github.com/SumanIslam/crwn-clothing',
 		imageSource: CrawnClothing,
 	},
 	{
-		id: 3,
-		title: 'Color Palette',
-		description1: 'Color Palette is a Front-End Web Application',
-		description2:
-			'This is a color picker website where you can get a lot of colors. It has 9 different color palette and each color palette has 24 different colors. For each color palette you can change the intensity level [100-900] of color by change the intensity level using level slider. Besides each color has 9 shades.',
-		stack: [
-			'React',
-			'Material UI',
-			'CSS-in-JS',
-			'chroma.js',
-			'react-color',
-			'rc-slider',
-			'react-transition-group',
-			'react-copy-to-clipboard',
-		],
-		liveLink: 'https://uicolor.vercel.app/',
-		sourceLink: 'https://github.com/SumanIslam/ui-color-palette-react',
-		imageSource: ColorPalette,
-	},
-	{
-		id: 4,
+		id: uuidv4(),
 		title: 'Project Management',
 		description1: 'Project Management is a Full-Stack Web Application.',
 		description2:
@@ -93,7 +121,7 @@ export const projectsData = [
 		imageSource: ProjectManagement,
 	},
 	{
-		id: 5,
+		id: uuidv4(),
 		title: 'Weatherin App',
 		description1: 'Weatherin is a Front-End Web Application.',
 		description2:
@@ -111,7 +139,7 @@ export const projectsData = [
 		imageSource: Weatherin,
 	},
 	{
-		id: 6,
+		id: uuidv4(),
 		title: 'DicePlay App',
 		description1: 'DicePlay is a Front-End Web Application.',
 		description2:
@@ -122,7 +150,7 @@ export const projectsData = [
 		imageSource: Diceplay,
 	},
 	{
-		id: 7,
+		id: uuidv4(),
 		title: 'Movie Ticket Booking App',
 		description1: 'Movie Ticket Booking is a Front-End Web Application.',
 		description2:
@@ -133,7 +161,7 @@ export const projectsData = [
 		imageSource: MovieTicketBooking,
 	},
 	{
-		id: 8,
+		id: uuidv4(),
 		title: 'Lights Out Game App',
 		description1: 'Lights Out Game is a Front-End Web Game Application.',
 		description2:
@@ -144,7 +172,7 @@ export const projectsData = [
 		imageSource: LightsOut,
 	},
 	{
-		id: 9,
+		id: uuidv4(),
 		title: 'Dad Jokes App',
 		description1: 'Dad Jokes is a Front-End Web Application.',
 		description2:
@@ -155,7 +183,7 @@ export const projectsData = [
 		imageSource: DadJokes,
 	},
 	{
-		id: 10,
+		id: uuidv4(),
 		title: 'Infinity Scroll App',
 		description1: 'Infinity Scroll is a Front-End Web Application.',
 		description2:
@@ -164,5 +192,28 @@ export const projectsData = [
 		liveLink: 'https://infinityscroll-sigma.vercel.app/',
 		sourceLink: 'https://github.com/SumanIslam/infinity-scroll',
 		imageSource: InfinityScroll,
+	},
+	{
+		id: uuidv4(),
+		title: 'Hangman App',
+		description1: 'Hangman app is a Front-End Web Application.',
+		description2:
+			'Hangman web application is a word guessing application. There are 5 blank space which denotes the word with different length. You have to guess the word. If you put the wrong character more than 5 times, the game will be over. Then you can play again with another unknown word with different length. If you guess the word within 5 try then you are the winner.',
+		stack: ['HTML', 'CSS', 'JavaScript'],
+		liveLink: 'https://hangman-lime-xi.vercel.app/',
+		sourceLink: 'https://github.com/SumanIslam/Hangman-Excercises',
+		imageSource: HangMan,
+	},
+	{
+		id: uuidv4(),
+		title: 'TODO-Perform Your Daily Task',
+		description1:
+			'TODO-Perform Your Daily Task app is a Front-End task manager Web Application.',
+		description2:
+			'We generally have so many tasks in a day. This app is used to maintain your tasks of the day. You can add your tasks of the day in this application. When you complete the task you can delete the task. You can also edit the task if you want.',
+		stack: ['HTML', 'CSS', 'React'],
+		liveLink: 'https://todo-dailytask.vercel.app/',
+		sourceLink: 'https://github.com/SumanIslam/todo-app-react',
+		imageSource: ToDo,
 	},
 ];
