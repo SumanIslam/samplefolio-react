@@ -34,7 +34,7 @@ const Footer = () => (
       </SocialLinkContainer>
       <hr />
       <p className="footer-text">
-        © 2021 - Copyright Reserved
+        © 2023 - Copyright Reserved
       </p>
 
     </div>
