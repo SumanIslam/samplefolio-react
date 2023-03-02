@@ -15,7 +15,7 @@ import { SkillSectionContainer, SkillBoxContainer } from './skill.style';
 const Skill = () => (
   <SkillSectionContainer>
     <div className="container">
-      <SectionTitle title="Skill" />
+      <SectionTitle title="Skills" />
       <div className="d-flex flex-wrap justify-content-center">
           {Object.keys(technologies).map((skill) => (
             <Rotate bottom left cascade delay={500}>
