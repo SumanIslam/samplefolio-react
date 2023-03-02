@@ -15,7 +15,7 @@ const Contact = () => (
         <ContentWrapperText>
           Would you like to work with me? Awesome!
         </ContentWrapperText>
-        <Button text="Let's Talk" link="mailto:sumunahmed1416@gmail.com" />
+        <Button text="Let's Talk" link="mailto:sumanislam.dev@gmail.com" />
       </ContentWrapper>
     </div>
   </ContactSectionContainer>
