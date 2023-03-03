@@ -33,33 +33,47 @@ const About = ({ aboutInfo }) => {
   }, []);
 
   return (
-    <AboutContainer id="about">
-      <div className="container">
-        <SectionTitle title="About Me" />
-        <AboutContentWrapper className="row">
-          <div className="col-md-4 col-sm-12">
-            <Fade bottom duration={1000} delay={600} distance="30px">
-              <AboutContentWrapperImage>
-                <img className="img-fluid rounded shadow-lg" height="auto" width="300px" src={profile} alt="Profile" />
-              </AboutContentWrapperImage>
-            </Fade>
-          </div>
-          <div className="col-md-8 col-sm-12">
-             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-              <AboutContentWrapperInfo>
-                {
-                  aboutInfo.map(info => (
-                    <AboutInfo key={uuidv4()} content={info} />
-                  ))
-                }
-                <Button text="Resume" link="https://drive.google.com/u/0/uc?id=1kV1WVnMWCvmQrfRZRjFKOdXbZCvwfjRn&export=download"/>
-              </AboutContentWrapperInfo>
-            </Fade>
-          </div>
-        </AboutContentWrapper>
-      </div>
-    </AboutContainer> 
-  )
+		<AboutContainer id='about'>
+			<div className='container'>
+				<SectionTitle title='About Me' />
+				<AboutContentWrapper className='row'>
+					<div className='col-md-4 col-sm-12'>
+						<Fade bottom duration={1000} delay={600} distance='30px'>
+							<AboutContentWrapperImage>
+								<img
+									className='img-fluid rounded shadow-lg'
+									height='auto'
+									width='300px'
+									src={profile}
+									alt='Profile'
+								/>
+							</AboutContentWrapperImage>
+						</Fade>
+					</div>
+					<div className='col-md-8 col-sm-12'>
+						<Fade
+							left={isDesktop}
+							bottom={isMobile}
+							duration={1000}
+							delay={1000}
+							distance='30px'
+						>
+							<AboutContentWrapperInfo>
+								{aboutInfo.map((info) => (
+									<AboutInfo key={uuidv4()} content={info} />
+								))}
+								<Button
+									text='Resume'
+									link='https://drive.google.com/uc?export=download&id=1qV_Bwrxruk8SaQz18cX_mZbpHayhyn7j'
+								/>
+								{/* <Button text="Resume" link="https://drive.google.com/u/0/uc?id=1kV1WVnMWCvmQrfRZRjFKOdXbZCvwfjRn&export=download"/> */}
+							</AboutContentWrapperInfo>
+						</Fade>
+					</div>
+				</AboutContentWrapper>
+			</div>
+		</AboutContainer>
+	);
 };
 
 About.defaultProps = {
