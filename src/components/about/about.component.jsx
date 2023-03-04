@@ -64,7 +64,7 @@ const About = ({ aboutInfo }) => {
 								))}
 								<Button
 									text='Resume'
-									link='https://drive.google.com/uc?export=download&id=1qV_Bwrxruk8SaQz18cX_mZbpHayhyn7j'
+									link='https://drive.google.com/uc?export=download&id=1mI7nNkxzgcgEVDORmuz5LqXWKuW6VVSC'
 								/>
 								{/* <Button text="Resume" link="https://drive.google.com/u/0/uc?id=1kV1WVnMWCvmQrfRZRjFKOdXbZCvwfjRn&export=download"/> */}
 							</AboutContentWrapperInfo>
