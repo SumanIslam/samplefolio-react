@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 
 
 // components
@@ -11,17 +11,28 @@ import Contact from '../../components/contact/contact.component';
 import Footer from '../../components/footer/footer.component';
 
 
-const Homepage = () => (
-  <>
-    <Hero />
-    <About />
-    <Project />
-    <Skill />
-    <Education />
-    <Contact />
-    <Footer />
-  </>
+const Homepage = () => {
+  useEffect(() => {
+    async function PingWebsite() {
+      await fetch('https://doortonikahserver.onrender.com');
+      await fetch('https://nasamissioncontrolserver.onrender.com');
+    }
+    PingWebsite();
+  },[]);
+
+  return (
+		<>
+			<Hero />
+			<About />
+			<Project />
+			<Skill />
+			<Education />
+			<Contact />
+			<Footer />
+		</>
+	);
   
-);
+}
+
 
 export default Homepage;
