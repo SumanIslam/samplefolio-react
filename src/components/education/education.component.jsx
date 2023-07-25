@@ -21,7 +21,7 @@ const Education = () => (
           intervalBackground={primaryColor}
           intervalColor={whiteColor}
         >
-          I completed my B.Sc from Uttara University with CGPA 3.99.
+          I completed my B.Sc from Uttara University with CGPA 4.00.
         </Event>
         <Event 
           interval="2015 – 2017"
